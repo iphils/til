@@ -2,7 +2,6 @@ site_name: Today I Learned
 site_url: https://iphils.github.io/til/
 repo_url: https://github.com/iphils/til
 repo_name: iphils/til
-docs_dir: .
 
 theme:
   name: material
@@ -20,9 +19,3 @@ plugins:
   - awesome-pages:
       collapse_single_pages: true
       strict: false
-
-exclude_docs: |
-  .git/
-  .github/
-  mkdocs.yml
-  requirements.txt
